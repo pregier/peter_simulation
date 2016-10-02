@@ -1,0 +1,355 @@
+kitekat:
+  model: kitekat
+  model_type: urdf
+  position: [46.84, 35.87, 0.3]
+  orientation: [2.184667, 2.289531, 2.202144]
+book_heilkrauter:
+  model: book_heilkrauter
+  model_type: urdf
+  position: [41.42, 33.55, 0.3]
+  orientation: [2.743941, -1.363232, -1.363232]
+spaghetti:
+  model: spaghetti
+  model_type: urdf
+  position: [45.91, 32.98, 0.3]
+  orientation: [3.023579, -0.8563893, -1.04864]
+medicine_panodil:
+  model: medicine_panodil
+  model_type: urdf
+  position: [47.08, 33.54, 0.3]
+  orientation: [2.35944, 2.376917, 2.988624]
+tomato_sauce:
+  model: tomato_sauce
+  model_type: urdf
+  position: [42.68, 33.61, 0.3]
+  orientation: [-0.576752, -1.503051, 1.817643]
+medicine_prospan:
+  model: medicine_prospan
+  model_type: urdf
+  position: [45.7, 32.15, 0.3]
+  orientation: [-0.5942293, 2.114757, -0.681616]
+kitekat_A:
+  model: kitekat
+  model_type: urdf
+  position: [42.6, 35.83, 0.3]
+  orientation: [2.813851, -0.2971147, -1.240891]
+tomato_sauce_A:
+  model: tomato_sauce
+  model_type: urdf
+  position: [46.52, 33.29, 0.3]
+  orientation: [-1.433141, -1.380709, -1.380709]
+book_romantiker:
+  model: book_romantiker
+  model_type: urdf
+  position: [44.05, 32.33, 0.3]
+  orientation: [2.062325, -1.415664, -0.471888]
+zwieback:
+  model: zwieback
+  model_type: urdf
+  position: [43.37, 33.49, 0.3]
+  orientation: [2.656555, 1.695301, 2.936192]
+milk:
+  model: milk
+  model_type: urdf
+  position: [40.53, 35.23, 0.3]
+  orientation: [-0.367024, 2.184667, -0.3495467]
+tomato_soup:
+  model: tomato_soup
+  model_type: urdf
+  position: [45.32, 33.99, 0.3]
+  orientation: [-0.8738667, 1.765211, -0]
+candle_thick:
+  model: candle_thick
+  model_type: urdf
+  position: [44.91, 32.33, 0.3]
+  orientation: [2.237099, 1.642869, -0.8563893]
+candle_thick_holder:
+  model: candle_thick_holder
+  model_type: urdf
+  position: [41, 32.27, 0.3]
+  orientation: [-0.1223413, -0.838912, -0.08738667]
+box_wood:
+  model: box_wood
+  model_type: urdf
+  position: [41.79, 35.11, 0.3]
+  orientation: [-1.415664, 2.866283, 3.041056]
+book_pferdewitze:
+  model: book_pferdewitze
+  model_type: urdf
+  position: [43.32, 32.2, 0.3]
+  orientation: [-0.06990933, 1.765211, -0.2796373]
+kitekat_B:
+  model: kitekat
+  model_type: urdf
+  position: [41.46, 34.77, 0.3]
+  orientation: [-0.7515253, -1.415664, -0.576752]
+tomato_sauce_B:
+  model: tomato_sauce
+  model_type: urdf
+  position: [40.41, 32.13, 0.3]
+  orientation: [-0.2796373, 2.866283, -0.2446827]
+basmati_rice:
+  model: basmati_rice
+  model_type: urdf
+  position: [46.3, 33.78, 0.3]
+  orientation: [3.110965, -0.052432, 3.110965]
+zwieback_A:
+  model: zwieback
+  model_type: urdf
+  position: [41.77, 32.82, 0.3]
+  orientation: [1.887552, 2.726464, 1.642869]
+salt:
+  model: salt
+  model_type: urdf
+  position: [46.12, 33.43, 0.3]
+  orientation: [1.660347, -1.380709, 2.114757]
+medicine_panodil_A:
+  model: medicine_panodil
+  model_type: urdf
+  position: [44.24, 34.27, 0.3]
+  orientation: [-0.2971147, -0.5417973, -0.734048]
+medicine_panodil_B:
+  model: medicine_panodil
+  model_type: urdf
+  position: [41.47, 35.98, 0.3]
+  orientation: [1.747733, 2.778896, -0.6641387]
+orange_juice_hohesc:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [43.05, 35.57, 0.3]
+  orientation: [2.604123, -1.205936, 2.953669]
+candle_thin:
+  model: candle_thin
+  model_type: urdf
+  position: [43.29, 34.03, 0.3]
+  orientation: [-0.9787307, -0.9088213, 2.674032]
+orange_juice_hohesc_A:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [47.39, 33.97, 0.3]
+  orientation: [2.307008, -0.9787307, 2.726464]
+orange_juice_hohesc_B:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [45.82, 35.9, 0.3]
+  orientation: [2.586645, -0.03495467, -0.9787307]
+kitekat_C:
+  model: kitekat
+  model_type: urdf
+  position: [47.39, 32.89, 0.3]
+  orientation: [-0, 1.765211, 2.132235]
+box_wood_A:
+  model: box_wood
+  model_type: urdf
+  position: [46.91, 35.23, 0.3]
+  orientation: [1.695301, 1.730256, -0.4893653]
+milk_A:
+  model: milk
+  model_type: urdf
+  position: [46.79, 33.97, 0.3]
+  orientation: [3.093488, -0.4544107, -1.503051]
+picture_family:
+  model: picture_family
+  model_type: urdf
+  position: [44.13, 34.87, 0.3]
+  orientation: [3.041056, -0.4019787, 2.88376]
+book_romantiker_A:
+  model: book_romantiker
+  model_type: urdf
+  position: [44.6, 34.01, 0.3]
+  orientation: [1.992416, -0.6990933, -0.2796373]
+basmati_rice_A:
+  model: basmati_rice
+  model_type: urdf
+  position: [42.42, 35.05, 0.3]
+  orientation: [2.726464, 2.446827, -1.345755]
+box_wood_B:
+  model: box_wood
+  model_type: urdf
+  position: [44.31, 33.66, 0.3]
+  orientation: [1.677824, -0.1747733, -0.838912]
+candle_thin_A:
+  model: candle_thin
+  model_type: urdf
+  position: [40.63, 34.36, 0.3]
+  orientation: [-1.485573, 2.6216, -0.03495467]
+orange_juice_hohesc_C:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [44.68, 35.22, 0.3]
+  orientation: [2.446827, 1.765211, -1.031163]
+plastic_wrap:
+  model: plastic_wrap
+  model_type: urdf
+  position: [41.66, 32.45, 0.3]
+  orientation: [-0.2971147, -1.205936, 2.516736]
+tomato_sauce_C:
+  model: tomato_sauce
+  model_type: urdf
+  position: [42.06, 34.24, 0.3]
+  orientation: [-1.275845, 2.656555, -1.118549]
+green_tea:
+  model: green_tea
+  model_type: urdf
+  position: [44.89, 34.86, 0.3]
+  orientation: [1.712779, 2.656555, 2.848805]
+spaghetti_A:
+  model: spaghetti
+  model_type: urdf
+  position: [44.29, 35.61, 0.3]
+  orientation: [2.202144, 2.586645, -0.1398187]
+spaghetti_B:
+  model: spaghetti
+  model_type: urdf
+  position: [46.97, 34.43, 0.3]
+  orientation: [-0.5417973, 2.464304, 1.992416]
+kitekat_D:
+  model: kitekat
+  model_type: urdf
+  position: [41.53, 35.37, 0.3]
+  orientation: [1.712779, 2.761419, 2.691509]
+orange_juice_hohesc_D:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [46.47, 34.94, 0.3]
+  orientation: [-0.2796373, -0.6117067, -0.26216]
+plastic_wrap_A:
+  model: plastic_wrap
+  model_type: urdf
+  position: [47.29, 32.35, 0.3]
+  orientation: [1.642869, 2.307008, 1.905029]
+basmati_rice_B:
+  model: basmati_rice
+  model_type: urdf
+  position: [40.49, 34.69, 0.3]
+  orientation: [-0.7690027, 2.079803, 2.813851]
+zwieback_B:
+  model: zwieback
+  model_type: urdf
+  position: [47.6, 35.9, 0.3]
+  orientation: [-0.8214347, 2.813851, -1.415664]
+candle_thick_holder_A:
+  model: candle_thick_holder
+  model_type: urdf
+  position: [42.16, 32.18, 0.3]
+  orientation: [-0.1398187, 3.110965, -0.9088213]
+medicine_prospan_A:
+  model: medicine_prospan
+  model_type: urdf
+  position: [43.93, 35.93, 0.3]
+  orientation: [-0.943776, 2.674032, 1.870075]
+orange_juice_hohesc_E:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [43.59, 32.6, 0.3]
+  orientation: [2.062325, -1.223413, -1.363232]
+book_gardening:
+  model: book_gardening
+  model_type: urdf
+  position: [43.96, 33.93, 0.3]
+  orientation: [-0.052432, 1.712779, 2.237099]
+box_wood_C:
+  model: box_wood
+  model_type: urdf
+  position: [44.57, 35.85, 0.3]
+  orientation: [1.642869, 2.254576, 3.006101]
+basmati_rice_C:
+  model: basmati_rice
+  model_type: urdf
+  position: [47.26, 34.9, 0.3]
+  orientation: [-0.4893653, 2.272053, 2.604123]
+candle_thin_B:
+  model: candle_thin
+  model_type: urdf
+  position: [47.85, 34.47, 0.3]
+  orientation: [-1.468096, 2.551691, -0.052432]
+kitekat_E:
+  model: kitekat
+  model_type: urdf
+  position: [46.03, 35.09, 0.3]
+  orientation: [-0.03495467, 2.481781, 2.35944]
+candle_thin_C:
+  model: candle_thin
+  model_type: urdf
+  position: [46.03, 34.5, 0.3]
+  orientation: [-0.2272053, -0.104864, 2.726464]
+picture_family_A:
+  model: picture_family
+  model_type: urdf
+  position: [43.15, 35.15, 0.3]
+  orientation: [3.041056, 2.376917, 2.376917]
+box_wood_D:
+  model: box_wood
+  model_type: urdf
+  position: [42.61, 34.6, 0.3]
+  orientation: [2.743941, -0.8039573, -0.6117067]
+kitekat_F:
+  model: kitekat
+  model_type: urdf
+  position: [41.92, 33.61, 0.3]
+  orientation: [-0.5068427, 1.747733, -0.1398187]
+milk_B:
+  model: milk
+  model_type: urdf
+  position: [43.24, 32.83, 0.3]
+  orientation: [2.376917, 2.09728, -1.363232]
+book_pferdewitze_A:
+  model: book_pferdewitze
+  model_type: urdf
+  position: [43.77, 34.69, 0.3]
+  orientation: [2.027371, -0.4369333, 3.093488]
+box_wood_E:
+  model: box_wood
+  model_type: urdf
+  position: [40.15, 34.59, 0.3]
+  orientation: [-1.101072, 2.09728, -0.471888]
+tomato_sauce_D:
+  model: tomato_sauce
+  model_type: urdf
+  position: [40.29, 35.93, 0.3]
+  orientation: [-0.943776, -0.8738667, 2.743941]
+candle_thin_D:
+  model: candle_thin
+  model_type: urdf
+  position: [43.93, 32.92, 0.3]
+  orientation: [-0.3845013, -0.629184, -0.4369333]
+zwieback_C:
+  model: zwieback
+  model_type: urdf
+  position: [45.05, 33.48, 0.3]
+  orientation: [-0.4544107, 2.114757, 2.918715]
+box_wood_F:
+  model: box_wood
+  model_type: urdf
+  position: [41.3, 35.65, 0.3]
+  orientation: [-1.101072, 2.341963, -1.3108]
+medicine_panodil_C:
+  model: medicine_panodil
+  model_type: urdf
+  position: [47.17, 35.72, 0.3]
+  orientation: [-0.681616, -0.5068427, -0.52432]
+milk_C:
+  model: milk
+  model_type: urdf
+  position: [42.31, 33.29, 0.3]
+  orientation: [-1.345755, -0.104864, -1.328277]
+plastic_wrap_B:
+  model: plastic_wrap
+  model_type: urdf
+  position: [44.41, 33.14, 0.3]
+  orientation: [1.974939, 2.062325, -1.363232]
+book_pferdewitze_B:
+  model: book_pferdewitze
+  model_type: urdf
+  position: [42.18, 35.9, 0.3]
+  orientation: [-0.4019787, 2.726464, -0.314592]
+kitekat_G:
+  model: kitekat
+  model_type: urdf
+  position: [47.39, 34.33, 0.3]
+  orientation: [1.765211, 1.590437, -0.7515253]
+medicine_prospan_B:
+  model: medicine_prospan
+  model_type: urdf
+  position: [44.35, 32.7, 0.3]
+  orientation: [3.14592, 2.691509, -1.136027]

@@ -1,0 +1,355 @@
+candle_thick_holder:
+  model: orange_box
+  model_type: urdf
+  position: [44.83, 35.55, 0.3]
+  orientation: [0, 0, 0]
+book_romantiker:
+  model: orange_box
+  model_type: urdf
+  position: [44.62, 32.5, 0.3]
+  orientation: [0, 0, 0]
+salt:
+  model: orange_box
+  model_type: urdf
+  position: [47.84, 34.95, 0.3]
+  orientation: [0, 0, 0]
+medicine_panodil:
+  model: orange_box
+  model_type: urdf
+  position: [46.58, 32.14, 0.3]
+  orientation: [0, 0, 0]
+tomato_sauce:
+  model: orange_box
+  model_type: urdf
+  position: [40.82, 33.22, 0.3]
+  orientation: [0, 0, 0]
+kitekat:
+  model: orange_box
+  model_type: urdf
+  position: [41.69, 35, 0.3]
+  orientation: [0, 0, 0]
+spaghetti:
+  model: orange_box
+  model_type: urdf
+  position: [41.33, 33.11, 0.3]
+  orientation: [0, 0, 0]
+milk:
+  model: orange_box
+  model_type: urdf
+  position: [44.98, 33.04, 0.3]
+  orientation: [0, 0, 0]
+spaghetti_A:
+  model: orange_box
+  model_type: urdf
+  position: [45.69, 35.18, 0.3]
+  orientation: [0, 0, 0]
+zwieback:
+  model: orange_box
+  model_type: urdf
+  position: [47.72, 32.62, 0.3]
+  orientation: [0, 0, 0]
+tomato_soup:
+  model: orange_box
+  model_type: urdf
+  position: [40.31, 33.38, 0.3]
+  orientation: [0, 0, 0]
+tomato_sauce_A:
+  model: orange_box
+  model_type: urdf
+  position: [45.01, 32.05, 0.3]
+  orientation: [0, 0, 0]
+medicine_prospan:
+  model: orange_box
+  model_type: urdf
+  position: [47.09, 32.8, 0.3]
+  orientation: [0, 0, 0]
+candle_thick_holder_A:
+  model: orange_box
+  model_type: urdf
+  position: [42.55, 32.23, 0.3]
+  orientation: [0, 0, 0]
+candle_thin:
+  model: orange_box
+  model_type: urdf
+  position: [40.85, 34.65, 0.3]
+  orientation: [0, 0, 0]
+tomato_sauce_B:
+  model: orange_box
+  model_type: urdf
+  position: [43.8, 33.17, 0.3]
+  orientation: [0, 0, 0]
+basmati_rice:
+  model: orange_box
+  model_type: urdf
+  position: [45.81, 35.84, 0.3]
+  orientation: [0, 0, 0]
+picture_family:
+  model: orange_box
+  model_type: urdf
+  position: [46.55, 35.28, 0.3]
+  orientation: [0, 0, 0]
+medicine_panodil_A:
+  model: orange_box
+  model_type: urdf
+  position: [44.55, 33.91, 0.3]
+  orientation: [0, 0, 0]
+zwieback_A:
+  model: orange_box
+  model_type: urdf
+  position: [44.13, 35.46, 0.3]
+  orientation: [0, 0, 0]
+spaghetti_B:
+  model: orange_box
+  model_type: urdf
+  position: [44.27, 33.33, 0.3]
+  orientation: [0, 0, 0]
+green_tea:
+  model: orange_box
+  model_type: urdf
+  position: [43.19, 34.69, 0.3]
+  orientation: [0, 0, 0]
+milk_A:
+  model: orange_box
+  model_type: urdf
+  position: [42.97, 33.34, 0.3]
+  orientation: [0, 0, 0]
+orange_juice_hohesc:
+  model: orange_box
+  model_type: urdf
+  position: [43.88, 34.47, 0.3]
+  orientation: [0, 0, 0]
+milk_B:
+  model: orange_box
+  model_type: urdf
+  position: [44.08, 34.84, 0.3]
+  orientation: [0, 0, 0]
+medicine_panodil_B:
+  model: orange_box
+  model_type: urdf
+  position: [42.46, 33.25, 0.3]
+  orientation: [0, 0, 0]
+orange_juice_hohesc_A:
+  model: orange_box
+  model_type: urdf
+  position: [43.58, 34.28, 0.3]
+  orientation: [0, 0, 0]
+candle_thin_A:
+  model: orange_box
+  model_type: urdf
+  position: [42.61, 33.69, 0.3]
+  orientation: [0, 0, 0]
+salt_A:
+  model: orange_box
+  model_type: urdf
+  position: [47.9, 33.9, 0.3]
+  orientation: [0, 0, 0]
+spaghetti_C:
+  model: orange_box
+  model_type: urdf
+  position: [40, 33.21, 0.3]
+  orientation: [0, 0, 0]
+tomato_sauce_C:
+  model: orange_box
+  model_type: urdf
+  position: [40.12, 34.56, 0.3]
+  orientation: [0, 0, 0]
+book_romantiker_A:
+  model: orange_box
+  model_type: urdf
+  position: [44.97, 34.89, 0.3]
+  orientation: [0, 0, 0]
+kitekat_A:
+  model: orange_box
+  model_type: urdf
+  position: [43.22, 34.06, 0.3]
+  orientation: [0, 0, 0]
+salt_B:
+  model: orange_box
+  model_type: urdf
+  position: [47.16, 34.56, 0.3]
+  orientation: [0, 0, 0]
+orange_juice_hohesc_B:
+  model: orange_box
+  model_type: urdf
+  position: [42.87, 35.74, 0.3]
+  orientation: [0, 0, 0]
+medicine_prospan_A:
+  model: orange_box
+  model_type: urdf
+  position: [47.13, 35.25, 0.3]
+  orientation: [0, 0, 0]
+kitekat_B:
+  model: orange_box
+  model_type: urdf
+  position: [42.8, 34.38, 0.3]
+  orientation: [0, 0, 0]
+candle_thick_holder_B:
+  model: orange_box
+  model_type: urdf
+  position: [46.08, 32.54, 0.3]
+  orientation: [0, 0, 0]
+tomato_soup_A:
+  model: orange_box
+  model_type: urdf
+  position: [44.19, 34.02, 0.3]
+  orientation: [0, 0, 0]
+book_pferdewitze:
+  model: orange_box
+  model_type: urdf
+  position: [47.09, 33.33, 0.3]
+  orientation: [0, 0, 0]
+book_romantiker_B:
+  model: orange_box
+  model_type: urdf
+  position: [40.35, 35.34, 0.3]
+  orientation: [0, 0, 0]
+tomato_sauce_D:
+  model: orange_box
+  model_type: urdf
+  position: [47.49, 32.1, 0.3]
+  orientation: [0, 0, 0]
+book_pferdewitze_A:
+  model: orange_box
+  model_type: urdf
+  position: [43.26, 32.62, 0.3]
+  orientation: [0, 0, 0]
+green_tea_A:
+  model: orange_box
+  model_type: urdf
+  position: [47.95, 35.35, 0.3]
+  orientation: [0, 0, 0]
+candle_thick_holder_C:
+  model: orange_box
+  model_type: urdf
+  position: [46.99, 33.96, 0.3]
+  orientation: [0, 0, 0]
+green_tea_B:
+  model: orange_box
+  model_type: urdf
+  position: [40.63, 33.7, 0.3]
+  orientation: [0, 0, 0]
+milk_C:
+  model: orange_box
+  model_type: urdf
+  position: [47.61, 32.99, 0.3]
+  orientation: [0, 0, 0]
+picture_family_A:
+  model: orange_box
+  model_type: urdf
+  position: [46.19, 33.57, 0.3]
+  orientation: [0, 0, 0]
+tomato_soup_B:
+  model: orange_box
+  model_type: urdf
+  position: [42.05, 32.49, 0.3]
+  orientation: [0, 0, 0]
+basmati_rice_A:
+  model: orange_box
+  model_type: urdf
+  position: [45.45, 33.06, 0.3]
+  orientation: [0, 0, 0]
+medicine_prospan_B:
+  model: orange_box
+  model_type: urdf
+  position: [40.87, 32.08, 0.3]
+  orientation: [0, 0, 0]
+basmati_rice_B:
+  model: orange_box
+  model_type: urdf
+  position: [44.68, 35.14, 0.3]
+  orientation: [0, 0, 0]
+candle_thin_B:
+  model: orange_box
+  model_type: urdf
+  position: [47.6, 35.57, 0.3]
+  orientation: [0, 0, 0]
+tomato_soup_C:
+  model: orange_box
+  model_type: urdf
+  position: [41.15, 34.21, 0.3]
+  orientation: [0, 0, 0]
+candle_thick_holder_D:
+  model: orange_box
+  model_type: urdf
+  position: [40.03, 35.02, 0.3]
+  orientation: [0, 0, 0]
+medicine_prospan_C:
+  model: orange_box
+  model_type: urdf
+  position: [45.29, 32.39, 0.3]
+  orientation: [0, 0, 0]
+book_pferdewitze_B:
+  model: orange_box
+  model_type: urdf
+  position: [45.21, 35.85, 0.3]
+  orientation: [0, 0, 0]
+kitekat_C:
+  model: orange_box
+  model_type: urdf
+  position: [41.87, 35.7, 0.3]
+  orientation: [0, 0, 0]
+zwieback_B:
+  model: orange_box
+  model_type: urdf
+  position: [45.55, 34.78, 0.3]
+  orientation: [0, 0, 0]
+book_heilkrauter:
+  model: orange_box
+  model_type: urdf
+  position: [43.46, 35.44, 0.3]
+  orientation: [0, 0, 0]
+book_pferdewitze_C:
+  model: orange_box
+  model_type: urdf
+  position: [45.1, 33.82, 0.3]
+  orientation: [0, 0, 0]
+spaghetti_D:
+  model: orange_box
+  model_type: urdf
+  position: [41.64, 32.52, 0.3]
+  orientation: [0, 0, 0]
+milk_D:
+  model: orange_box
+  model_type: urdf
+  position: [40.78, 35.65, 0.3]
+  orientation: [0, 0, 0]
+book_romantiker_C:
+  model: orange_box
+  model_type: urdf
+  position: [46.75, 34.65, 0.3]
+  orientation: [0, 0, 0]
+zwieback_C:
+  model: orange_box
+  model_type: urdf
+  position: [46.09, 34.95, 0.3]
+  orientation: [0, 0, 0]
+book_romantiker_D:
+  model: orange_box
+  model_type: urdf
+  position: [46.24, 35.53, 0.3]
+  orientation: [0, 0, 0]
+orange_juice_hohesc_C:
+  model: orange_box
+  model_type: urdf
+  position: [46.7, 33.04, 0.3]
+  orientation: [0, 0, 0]
+picture_family_B:
+  model: orange_box
+  model_type: urdf
+  position: [41.99, 33.98, 0.3]
+  orientation: [0, 0, 0]
+box_wood:
+  model: orange_box
+  model_type: urdf
+  position: [43.27, 35.77, 0.3]
+  orientation: [0, 0, 0]
+spaghetti_E:
+  model: orange_box
+  model_type: urdf
+  position: [40.66, 32.51, 0.3]
+  orientation: [0, 0, 0]
+book_gardening:
+  model: orange_box
+  model_type: urdf
+  position: [42.03, 34.64, 0.3]
+  orientation: [0, 0, 0]

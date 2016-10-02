@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- relativ to the map frame -->
+	<arg name="position_x" default="41.0" />
+	<arg name="position_y" default="34.0" />
+	<arg name="yaw" default="0.0" />
+
+	<node pkg="simulated_navigation_launch" type="simple_goal_publisher"
+		name="goal_publisher" respawn="false" output="screen" >
+		<param name="position_x" type="double" value="$(arg position_x)" />
+		<param name="position_y" type="double" value="$(arg position_y)" />
+		<param name="yaw" type="double" value="$(arg yaw)" />
+	</node>
+</launch>

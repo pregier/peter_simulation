@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- define arguments -->
+
+  <arg name="robot" default="uni_bonn_robotino"/>
+  <arg name="paused" default="false"/>
+  <arg name="camera_name" default="kinect"/>
+  <arg name="robot_spawn_pose" default="-x 36 -y 34 -z 0.1 -Y 0"/>
+
+  <!-- startup simulated robot -->
+  <include file="$(find simulated_robots_bringup)/launch/robotino_sim.launch" >
+    <arg name="paused" value="$(arg paused)" />
+    <arg name="robot" value="$(arg robot)" />
+    <arg name="camera_name" value="$(arg camera_name)"/>
+    <arg name="robot_spawn_pose" value="$(arg robot_spawn_pose)"/>
+  </include>
+
+</launch>

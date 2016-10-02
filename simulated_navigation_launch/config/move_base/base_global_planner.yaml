@@ -1,0 +1,10 @@
+GlobalPlanner:
+  allow_unknown: false
+  default_tolerance: 0.1
+  visualize_potential: true
+  use_dijkstra: false
+  use_quadratic: true
+  use_grid_path: false
+  old_navfn_behavior: false
+  moving_cost: 50
+  robot_radius: 0.275 #0.225

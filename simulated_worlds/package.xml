@@ -1,0 +1,19 @@
+<package>
+  <name>simulated_worlds</name>
+  <version>0.0.0</version>
+  <description>This package provides some worlds for gazebo simulation.</description>
+
+  <license>LGPL</license>
+
+  <maintainer email="pregier@cs.uni-bonn.de">Peter Regier</maintainer>
+  <author email="pregier@cs.uni-bonn.de">Peter Regier</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>kdl_parser</run_depend>
+
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}"/>
+  </export>
+</package>

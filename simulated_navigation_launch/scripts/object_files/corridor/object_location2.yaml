@@ -1,0 +1,100 @@
+picture_family:
+  model: picture_family
+  model_type: urdf
+  position: [40.23, 27.07, 0.3]
+  orientation: [2.708987, -0.2971147, 3.128443]
+green_tea:
+  model: green_tea
+  model_type: urdf
+  position: [38.89, 27.31, 0.3]
+  orientation: [2.394395, 3.058533, 2.394395]
+book_heilkrauter:
+  model: book_heilkrauter
+  model_type: urdf
+  position: [41.93, 28.52, 0.3]
+  orientation: [2.604123, 2.88376, 2.569168]
+green_tea_A:
+  model: green_tea
+  model_type: urdf
+  position: [38.97, 27.8, 0.3]
+  orientation: [-1.275845, -0.9262987, -0.996208]
+book_heilkrauter_A:
+  model: book_heilkrauter
+  model_type: urdf
+  position: [38.27, 27.02, 0.3]
+  orientation: [2.743941, -1.013685, 1.642869]
+candle_thick:
+  model: candle_thick
+  model_type: urdf
+  position: [41.64, 28.3, 0.3]
+  orientation: [-0.08738667, 2.341963, -0.419456]
+salt:
+  model: salt
+  model_type: urdf
+  position: [42.44, 28.39, 0.3]
+  orientation: [-1.345755, 2.044848, -0.7515253]
+book_romantiker:
+  model: book_romantiker
+  model_type: urdf
+  position: [38.04, 27.9, 0.3]
+  orientation: [-1.328277, 2.761419, 3.058533]
+tomato_soup:
+  model: tomato_soup
+  model_type: urdf
+  position: [39.58, 28.66, 0.3]
+  orientation: [1.730256, 2.743941, -1.380709]
+book_gardening:
+  model: book_gardening
+  model_type: urdf
+  position: [42.5, 27.57, 0.3]
+  orientation: [-0.8214347, -0.1922507, 2.743941]
+basmati_rice:
+  model: basmati_rice
+  model_type: urdf
+  position: [39.08, 28.57, 0.3]
+  orientation: [-0.9612533, 2.918715, -1.345755]
+milk:
+  model: milk
+  model_type: urdf
+  position: [40.8, 27.37, 0.3]
+  orientation: [2.376917, 2.149712, -1.240891]
+tomato_soup_A:
+  model: tomato_soup
+  model_type: urdf
+  position: [40.19, 28.79, 0.3]
+  orientation: [1.625392, 3.041056, 2.429349]
+book_heilkrauter_B:
+  model: book_heilkrauter
+  model_type: urdf
+  position: [38.22, 27.52, 0.3]
+  orientation: [2.481781, 2.604123, 1.642869]
+candle_thick_holder:
+  model: candle_thick_holder
+  model_type: urdf
+  position: [38.21, 28.74, 0.3]
+  orientation: [-0.314592, 2.184667, 2.656555]
+medicine_prospan:
+  model: medicine_prospan
+  model_type: urdf
+  position: [39.52, 27.8, 0.3]
+  orientation: [-0.26216, 2.289531, -0.1223413]
+green_tea_B:
+  model: green_tea
+  model_type: urdf
+  position: [42.87, 27.92, 0.3]
+  orientation: [2.132235, -0.471888, 2.167189]
+candle_thick_holder_A:
+  model: candle_thick_holder
+  model_type: urdf
+  position: [40.18, 28.09, 0.3]
+  orientation: [2.901237, -0.104864, -0.06990933]
+candle_thin:
+  model: candle_thin
+  model_type: urdf
+  position: [42.02, 28.85, 0.3]
+  orientation: [-1.083595, 1.83512, 2.813851]
+book_gardening_A:
+  model: book_gardening
+  model_type: urdf
+  position: [39.8, 28.19, 0.3]
+  orientation: [-0.7515253, -0.943776, -1.3108]

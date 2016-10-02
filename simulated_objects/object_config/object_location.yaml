@@ -1,0 +1,150 @@
+book_romantiker:
+  model: book_romantiker
+  model_type: urdf
+  position: [45.22, 34.03, 0.3]
+  orientation: [2.743941, 2.674032, 1.83512]
+candle_thick_holder:
+  model: candle_thick_holder
+  model_type: urdf
+  position: [42.2, 34.35, 0.3]
+  orientation: [-0.367024, 2.813851, 2.743941]
+orange_juice_hohesc:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [40.55, 35.86, 0.3]
+  orientation: [2.831328, 2.691509, -1.013685]
+spaghetti:
+  model: spaghetti
+  model_type: urdf
+  position: [41.36, 32, 0.3]
+  orientation: [-1.013685, -0.03495467, 1.974939]
+medicine_prospan:
+  model: medicine_prospan
+  model_type: urdf
+  position: [43.2, 33.66, 0.3]
+  orientation: [2.09728, 2.6216, 1.852597]
+kitekat:
+  model: kitekat
+  model_type: urdf
+  position: [40.21, 34.82, 0.3]
+  orientation: [-0.629184, 2.88376, 1.870075]
+book_romantiker_A:
+  model: book_romantiker
+  model_type: urdf
+  position: [40.99, 33.69, 0.3]
+  orientation: [-0.3845013, 2.639077, 2.132235]
+green_tea:
+  model: green_tea
+  model_type: urdf
+  position: [42.83, 32.67, 0.3]
+  orientation: [-0.52432, 2.307008, 2.569168]
+book_gardening:
+  model: book_gardening
+  model_type: urdf
+  position: [46.74, 32.56, 0.3]
+  orientation: [-1.083595, -0.4544107, -0.104864]
+plastic_wrap:
+  model: plastic_wrap
+  model_type: urdf
+  position: [47.34, 35.55, 0.3]
+  orientation: [2.743941, 1.782688, 2.778896]
+book_gardening_A:
+  model: book_gardening
+  model_type: urdf
+  position: [45.78, 33.39, 0.3]
+  orientation: [2.411872, -1.363232, 2.289531]
+book_gardening_B:
+  model: book_gardening
+  model_type: urdf
+  position: [42.02, 35.42, 0.3]
+  orientation: [2.551691, -0.01747733, 1.957461]
+green_tea_A:
+  model: green_tea
+  model_type: urdf
+  position: [41.46, 32.37, 0.3]
+  orientation: [-0.419456, 2.866283, 2.936192]
+book_romantiker_B:
+  model: book_romantiker
+  model_type: urdf
+  position: [42.37, 35.68, 0.3]
+  orientation: [-1.433141, -0.7165707, 2.988624]
+milk:
+  model: milk
+  model_type: urdf
+  position: [45.83, 35.87, 0.3]
+  orientation: [-0.2446827, 2.813851, -0.734048]
+kitekat_A:
+  model: kitekat
+  model_type: urdf
+  position: [46.75, 35.05, 0.3]
+  orientation: [-0.3845013, 1.730256, 1.922507]
+candle_thick:
+  model: candle_thick
+  model_type: urdf
+  position: [44.54, 34.35, 0.3]
+  orientation: [2.272053, 2.114757, -1.398187]
+orange_juice_hohesc_A:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [44.37, 33.82, 0.3]
+  orientation: [2.691509, -0.943776, 2.009893]
+book_heilkrauter:
+  model: book_heilkrauter
+  model_type: urdf
+  position: [44.4, 33.34, 0.3]
+  orientation: [-0.3845013, 2.027371, 2.464304]
+book_heilkrauter_A:
+  model: book_heilkrauter
+  model_type: urdf
+  position: [45.48, 34.54, 0.3]
+  orientation: [-0.4893653, 1.607915, -1.083595]
+orange_juice_hohesc_B:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [43.89, 33.89, 0.3]
+  orientation: [-1.555483, -0.8738667, -0.7515253]
+tomato_soup:
+  model: tomato_soup
+  model_type: urdf
+  position: [41.36, 34.78, 0.3]
+  orientation: [-0.6990933, 1.712779, -0.7690027]
+book_romantiker_C:
+  model: book_romantiker
+  model_type: urdf
+  position: [42.59, 33.43, 0.3]
+  orientation: [-0.943776, 2.132235, -0.471888]
+box_wood:
+  model: box_wood
+  model_type: urdf
+  position: [41.31, 34.21, 0.3]
+  orientation: [-0.7165707, -0.4019787, 2.639077]
+book_pferdewitze:
+  model: book_pferdewitze
+  model_type: urdf
+  position: [47.71, 34.96, 0.3]
+  orientation: [1.992416, 2.09728, -0.5942293]
+tomato_soup_A:
+  model: tomato_soup
+  model_type: urdf
+  position: [43.76, 35.03, 0.3]
+  orientation: [-1.031163, 2.499259, 2.324485]
+zwieback:
+  model: zwieback
+  model_type: urdf
+  position: [46.44, 32.83, 0.3]
+  orientation: [2.953669, 3.058533, -1.293323]
+box_wood_A:
+  model: box_wood
+  model_type: urdf
+  position: [42.99, 34.63, 0.3]
+  orientation: [2.639077, 2.586645, 2.237099]
+milk_A:
+  model: milk
+  model_type: urdf
+  position: [40.63, 33.56, 0.3]
+  orientation: [-1.485573, 2.988624, -1.101072]
+book_gardening_C:
+  model: book_gardening
+  model_type: urdf
+  position: [43.84, 35.57, 0.3]
+  orientation: [2.237099, 1.765211, 2.726464]

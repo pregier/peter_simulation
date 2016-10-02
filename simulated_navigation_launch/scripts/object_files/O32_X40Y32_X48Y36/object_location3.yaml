@@ -1,0 +1,160 @@
+tomato_sauce:
+  model: tomato_sauce
+  model_type: urdf
+  position: [47.06, 32.55, 0.3]
+  orientation: [2.6216, -1.363232, -1.3108]
+basmati_rice:
+  model: basmati_rice
+  model_type: urdf
+  position: [40.13, 34.41, 0.3]
+  orientation: [2.167189, -1.380709, 1.625392]
+green_tea:
+  model: green_tea
+  model_type: urdf
+  position: [45.43, 32.08, 0.3]
+  orientation: [2.079803, -1.433141, -0.104864]
+salt:
+  model: salt
+  model_type: urdf
+  position: [41.7, 32.62, 0.3]
+  orientation: [1.800165, 2.988624, 1.730256]
+medicine_prospan:
+  model: medicine_prospan
+  model_type: urdf
+  position: [44.36, 35.07, 0.3]
+  orientation: [2.184667, 2.691509, 2.429349]
+candle_thin:
+  model: candle_thin
+  model_type: urdf
+  position: [43.23, 33.48, 0.3]
+  orientation: [-1.136027, -0.2796373, -1.118549]
+green_tea_A:
+  model: green_tea
+  model_type: urdf
+  position: [46.47, 34.79, 0.3]
+  orientation: [2.569168, 2.971147, -0.4544107]
+orange_juice_hohesc:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [42.7, 32.58, 0.3]
+  orientation: [2.272053, 3.128443, -1.031163]
+candle_thick:
+  model: candle_thick
+  model_type: urdf
+  position: [40.13, 33.64, 0.3]
+  orientation: [2.656555, -0.943776, 2.481781]
+book_romantiker:
+  model: book_romantiker
+  model_type: urdf
+  position: [46.8, 34.47, 0.3]
+  orientation: [-0.3845013, -0.9088213, 2.708987]
+zwieback:
+  model: zwieback
+  model_type: urdf
+  position: [47.58, 35.05, 0.3]
+  orientation: [-1.04864, 1.817643, -0.9088213]
+medicine_prospan_A:
+  model: medicine_prospan
+  model_type: urdf
+  position: [45.55, 35.17, 0.3]
+  orientation: [2.35944, 2.272053, 2.307008]
+book_romantiker_A:
+  model: book_romantiker
+  model_type: urdf
+  position: [44.86, 33.15, 0.3]
+  orientation: [2.272053, -1.188459, 2.027371]
+book_heilkrauter:
+  model: book_heilkrauter
+  model_type: urdf
+  position: [46.34, 35.36, 0.3]
+  orientation: [-0.681616, 2.988624, -0.1398187]
+salt_A:
+  model: salt
+  model_type: urdf
+  position: [45.81, 35.51, 0.3]
+  orientation: [2.411872, -0.314592, -1.118549]
+kitekat:
+  model: kitekat
+  model_type: urdf
+  position: [44.75, 33.91, 0.3]
+  orientation: [3.128443, -1.450619, -1.398187]
+medicine_panodil:
+  model: medicine_panodil
+  model_type: urdf
+  position: [43.55, 34.82, 0.3]
+  orientation: [-1.101072, 2.324485, -1.205936]
+kitekat_A:
+  model: kitekat
+  model_type: urdf
+  position: [45.98, 35.94, 0.3]
+  orientation: [3.006101, -1.433141, 2.6216]
+box_wood:
+  model: box_wood
+  model_type: urdf
+  position: [45.07, 32.49, 0.3]
+  orientation: [2.341963, 2.376917, -0.419456]
+zwieback_A:
+  model: zwieback
+  model_type: urdf
+  position: [43.32, 35.6, 0.3]
+  orientation: [3.110965, 2.778896, 2.778896]
+book_gardening:
+  model: book_gardening
+  model_type: urdf
+  position: [41.1, 35.17, 0.3]
+  orientation: [2.674032, -0.6641387, 2.88376]
+tomato_soup:
+  model: tomato_soup
+  model_type: urdf
+  position: [44.99, 33.55, 0.3]
+  orientation: [-0.419456, -1.3108, 1.992416]
+basmati_rice_A:
+  model: basmati_rice
+  model_type: urdf
+  position: [46.52, 33.71, 0.3]
+  orientation: [-1.013685, -0.4369333, -1.468096]
+book_romantiker_B:
+  model: book_romantiker
+  model_type: urdf
+  position: [42.77, 34.07, 0.3]
+  orientation: [-1.328277, -1.118549, 2.743941]
+zwieback_B:
+  model: zwieback
+  model_type: urdf
+  position: [40.82, 33.81, 0.3]
+  orientation: [2.936192, 1.817643, 3.058533]
+candle_thick_A:
+  model: candle_thick
+  model_type: urdf
+  position: [47.73, 33.02, 0.3]
+  orientation: [-0.891344, 1.782688, 2.813851]
+basmati_rice_B:
+  model: basmati_rice
+  model_type: urdf
+  position: [41.32, 34.23, 0.3]
+  orientation: [2.307008, -1.170981, 1.974939]
+salt_B:
+  model: salt
+  model_type: urdf
+  position: [43.25, 32.53, 0.3]
+  orientation: [1.800165, 2.481781, -0.2446827]
+candle_thick_holder:
+  model: candle_thick_holder
+  model_type: urdf
+  position: [42.94, 35.98, 0.3]
+  orientation: [-1.275845, 3.110965, 2.6216]
+book_heilkrauter_A:
+  model: book_heilkrauter
+  model_type: urdf
+  position: [41.85, 33.03, 0.3]
+  orientation: [3.14592, 3.058533, -0.52432]
+candle_thick_B:
+  model: candle_thick
+  model_type: urdf
+  position: [43.55, 33.5, 0.3]
+  orientation: [-1.04864, -0.8563893, -1.188459]
+candle_thick_holder_A:
+  model: candle_thick_holder
+  model_type: urdf
+  position: [41.3, 32.38, 0.3]
+  orientation: [-0.7690027, 2.743941, -0.8039573]

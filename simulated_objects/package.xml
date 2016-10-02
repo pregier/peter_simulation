@@ -1,0 +1,20 @@
+<package format="2">
+  <name>simulated_objects</name>
+  <version>0.6.4</version>
+  <description>This package provides some objects and furniture for gazebo simulation.</description>
+
+  <license>LGPL</license>
+
+  <url type="website">http://ros.org/wiki/cob_gazebo_objects</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <maintainer email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</maintainer>
+  <author email="nhg@ipa.fhg.de">Nadia Hammoudeh Garcia</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>gazebo_ros</exec_depend>
+
+  <export>
+  </export>
+</package>

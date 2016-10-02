@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="rviz_config_file" default="$(find simulated_navigation_launch)/config/rviz/clutter_navigation.rviz"/>
+        <!-- start rviz with configuration -->
+        <node pkg="rviz" type="rviz" name="$(anon rviz)" args="-d $(arg rviz_config_file)" respawn="false" output="screen" />
+</launch>
+

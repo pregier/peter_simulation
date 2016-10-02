@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+ <world name='default'> 
+  <!-- Global Light Source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+  
+  <include>
+      <uri>model://ground_plane</uri>
+   </include>
+
+   <include>
+      <uri>model://sim_iros16</uri>
+    </include>  
+   </world>
+</sdf>

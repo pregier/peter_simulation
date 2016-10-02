@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<launch>
+    <param name="use_sim_time" value="true"/>
+	<arg name="sim_world" default="true" />
+	<arg name="sim_robot" default="true" />
+	<arg name="static_transforms" default="true" />
+	<arg name="mapserver_movebase" default="true" />
+	<arg name="rviz" default="true" />
+	<arg name="send_goal" default="false" />
+	<arg name="record_time_distance" default="false" />
+        <arg name="world_name" default="willow_office.world"/>
+
+	<arg name="use_dumped_param" default="false" />
+	<arg name="dumped_param_file" if="$(arg use_dumped_param)"
+		default="/home/pregier/Workspaces/test_results/results5_decreases_oszil_parameter/experiment_3/rosparam.txt" />
+
+    <arg name="map" default="map_server"/>
+
+	<!-- relativ to the map frame -->
+	<arg name="goal_x" default="50.0" />
+	<arg name="goal_y" default="34.0" />
+	<arg name="goal_yaw" default="0.0" />
+
+	<arg name="start_x" default="36" />
+	<arg name="start_y" default="34" />
+	<arg name="start_yaw" default="0" />
+
+	<arg name="robot_spawn_pose"
+		default="-x $(arg start_x) -y $(arg start_y) -z 0.1 -Y $(arg start_yaw)" />
+
+	<arg name="exp_numb" default="1" if="$(arg record_time_distance)" />
+	<arg name="file_numb" default="1" if="$(arg record_time_distance)" />
+	<arg name="run_numb" default="1" if="$(arg record_time_distance)" />
+	
+	<arg name="recovery_file"
+		default="/home/pregier/Workspaces/clutter_navigation_ws/test_results.csv"
+		if="$(arg record_time_distance)" />
+	<arg name="results_file"
+		default="/home/pregier/Workspaces/clutter_navigation_ws/test_rec.csv"
+		if="$(arg record_time_distance)" />
+
+	<arg name="used_layer" default="standard" />
+
+	<arg name="load_param_objects" default="false" />
+<!-- 	<arg name="object_file" if="$(arg load_param_objects)" -->
+<!-- 		default="/home/pregier/Workspaces/clutter_navigation_ws/src/simulation_dev/simulated_navigation_launch/scripts/object_files/O48_X40Y32_X48Y36/object_location6.yaml" /> -->
+<arg name="object_file" 
+		default="/home/pregier/Workspaces/clutter_navigation_ws/src/simulation_dev/simulated_navigation_launch/scripts/object_files/O48_X40Y32_X48Y36/object_location6.yaml" />
+
+	<arg name="gui" default="false" />
+	<arg name="paused" default="false" />
+
+	<arg name="rviz_config_file"
+		default="$(find simulated_navigation_launch)/config/rviz/clutter_navigation.rviz" />
+
+
+	<!-- startup simulated world -->
+	<include
+		file="$(find simulated_navigation_launch)/launch/simulated_world.launch"
+		if="$(arg sim_world)">
+		<arg name="gui" value="$(arg gui)" />
+		<arg name="headless" value="false" />
+		<arg name="paused" value="$(arg paused)" />
+		<arg name="object_file" value="$(arg object_file)" />
+		<arg name="load_param_objects" value="$(arg load_param_objects)" />
+                <arg name="world_name" value="$(arg world_name)" />
+	</include>
+
+	<!--with the robot -->
+	<include
+		file="$(find simulated_navigation_launch)/launch/simulated_robot.launch"
+		if="$(arg sim_robot)">
+		<arg name="robot_spawn_pose" value="$(arg robot_spawn_pose)" />
+	</include>
+
+	<include
+		file="$(find simulated_navigation_launch)/launch/static_transforms.launch"
+		if="$(arg static_transforms)">
+	</include>
+
+	<!-- start move base and map server -->
+	<include
+		file="$(find simulated_navigation_launch)/launch/mapserver_movebase.launch"
+		if="$(arg mapserver_movebase)">
+		<arg name="used_layer" value="$(arg used_layer)" />
+		<arg name="use_dumped_param" value="$(arg use_dumped_param)" />
+		<arg name="dumped_param_file" value="$(arg dumped_param_file)" if="$(arg use_dumped_param)" />
+		<arg name="map" value="$(arg map)"/>
+	</include>
+
+	<include
+		file="$(find simulated_navigation_launch)/launch/rviz_clutter_navigation.launch"
+		if="$(arg rviz)">
+		<arg name="rviz_config_file" value="$(arg rviz_config_file)" />
+	</include>
+
+
+	<node pkg="simulated_navigation_launch" type="simple_goal_publisher"
+		name="goal_publisher" respawn="false" output="screen" if="$(arg send_goal)">
+		<param name="position_x" type="double" value="$(arg goal_x)" />
+		<param name="position_y" type="double" value="$(arg goal_y)" />
+		<param name="yaw" type="double" value="$(arg goal_yaw)" />
+	</node>
+
+	<node pkg="navigation_helper" type="experiment_main" name="record_results"
+		respawn="false" output="screen" if="$(arg record_time_distance)">
+		<param name="experiment_number" value="$(arg exp_numb)" />
+		<param name="run_number" value="$(arg run_numb)" />
+		<param name="results_file" value="$(arg results_file)" />
+		<param name="recovery_file" value="$(arg recovery_file)" />
+		<param name="object_file" value="$(arg object_file)" />
+	</node>
+	<node pkg="clutter_helper" type="odom_to_path" name="odom_to_path"/>
+</launch>

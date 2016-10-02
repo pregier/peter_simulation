@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- define arguments -->
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+  <arg name="load_param_objects" default="false"/>
+  
+  <arg name="world_name" default="willow_office.world"/>
+  <!-- willow_office, sim_iros16 -->
+  <arg name= "object_file" default="$(find simulated_objects)/object_config/object_location.yaml"/>
+
+  <!-- startup simulated world -->
+  <include file="$(find simulated_worlds)/launch/world.launch">
+    <arg name="paused" value="$(arg paused)" />
+    <arg name="use_sim_time" value="$(arg use_sim_time)" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="headless" value="$(arg headless)"/>
+    <arg name="debug" value="$(arg debug)"/>
+    <arg name="world_name" value="$(find simulated_worlds)/worlds/$(arg world_name)"/>
+  </include>
+  
+  <group if="$(arg load_param_objects)">
+<!--   	rosparam command="delete" param="/objects"/ -->
+	<rosparam command="load" ns="objects" file="$(arg object_file)"/>
+	 <node pkg="simulated_robots_bringup" type="spawn_object_without_checks.py" name="spawn_objects" args="all"/>
+  </group>
+
+</launch>

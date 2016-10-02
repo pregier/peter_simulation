@@ -1,0 +1,100 @@
+tomato_soup:
+  model: tomato_soup
+  model_type: urdf
+  position: [41.84, 28.78, 0.3]
+  orientation: [2.813851, -0.3320693, 1.642869]
+tomato_sauce:
+  model: tomato_sauce
+  model_type: urdf
+  position: [40.52, 27.74, 0.3]
+  orientation: [2.778896, -0.5592747, -1.101072]
+spaghetti:
+  model: spaghetti
+  model_type: urdf
+  position: [39.16, 28.91, 0.3]
+  orientation: [2.691509, -0.9787307, -1.380709]
+spaghetti_A:
+  model: spaghetti
+  model_type: urdf
+  position: [42.14, 28.53, 0.3]
+  orientation: [2.691509, 2.761419, 3.093488]
+salt:
+  model: salt
+  model_type: urdf
+  position: [38.56, 28.44, 0.3]
+  orientation: [-1.380709, 1.712779, 2.114757]
+book_gardening:
+  model: book_gardening
+  model_type: urdf
+  position: [42.91, 27.69, 0.3]
+  orientation: [1.765211, 2.639077, 2.988624]
+picture_family:
+  model: picture_family
+  model_type: urdf
+  position: [39.06, 28.02, 0.3]
+  orientation: [3.041056, 1.695301, -0.471888]
+basmati_rice:
+  model: basmati_rice
+  model_type: urdf
+  position: [41.2, 28.12, 0.3]
+  orientation: [2.988624, 2.237099, 2.569168]
+medicine_prospan:
+  model: medicine_prospan
+  model_type: urdf
+  position: [38.08, 28.84, 0.3]
+  orientation: [-0.8214347, -1.328277, -0.2272053]
+book_pferdewitze:
+  model: book_pferdewitze
+  model_type: urdf
+  position: [39.74, 27.94, 0.3]
+  orientation: [2.429349, 2.044848, 1.83512]
+tomato_soup_A:
+  model: tomato_soup
+  model_type: urdf
+  position: [38.71, 27.86, 0.3]
+  orientation: [2.324485, 3.14592, -0.471888]
+book_pferdewitze_A:
+  model: book_pferdewitze
+  model_type: urdf
+  position: [38.1, 27.38, 0.3]
+  orientation: [-0.8039573, -1.04864, -1.031163]
+plastic_wrap:
+  model: plastic_wrap
+  model_type: urdf
+  position: [39.89, 27.44, 0.3]
+  orientation: [-0.1922507, 2.027371, -0.2971147]
+picture_family_A:
+  model: picture_family
+  model_type: urdf
+  position: [40.81, 27.97, 0.3]
+  orientation: [-1.57296, -1.555483, 3.058533]
+tomato_soup_B:
+  model: tomato_soup
+  model_type: urdf
+  position: [42.01, 27.63, 0.3]
+  orientation: [2.971147, 2.936192, 3.076011]
+tomato_sauce_A:
+  model: tomato_sauce
+  model_type: urdf
+  position: [38.95, 27.22, 0.3]
+  orientation: [-0.209728, 2.988624, -0.838912]
+book_pferdewitze_B:
+  model: book_pferdewitze
+  model_type: urdf
+  position: [40.76, 27.12, 0.3]
+  orientation: [-0.03495467, 2.88376, 2.534213]
+book_pferdewitze_C:
+  model: book_pferdewitze
+  model_type: urdf
+  position: [39.84, 28.24, 0.3]
+  orientation: [1.957461, -0.996208, 3.058533]
+basmati_rice_A:
+  model: basmati_rice
+  model_type: urdf
+  position: [42.24, 27.17, 0.3]
+  orientation: [2.813851, 1.817643, -1.223413]
+milk:
+  model: milk
+  model_type: urdf
+  position: [40.14, 28.79, 0.3]
+  orientation: [3.041056, -1.083595, -0.104864]

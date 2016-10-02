@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<launch>
+<arg name="used_layer"/>
+<arg name="use_dumped_param" default="false"/>
+<arg name="dumped_param_file" if="$(arg use_dumped_param)" />
+<arg name="map" default="map_server"/>
+
+<node pkg="map_server" type="map_server" name="map_server" args="$(find simulated_navigation_launch)/config/map_server/$(arg map).yaml">
+     <param name="map_server" value="/map"/>
+</node>
+
+<rosparam file="$(arg dumped_param_file)" command="load" if="$(arg use_dumped_param)"/>
+<node pkg="clutter_move_base" type="move_base" respawn="false" name="move_base" output="screen" if="$(arg use_dumped_param)"/>
+
+
+<node pkg="clutter_move_base" type="move_base" respawn="false" name="move_base" output="screen" unless="$(arg use_dumped_param)">
+
+    <param name="base_global_planner" value="a_star/GlobalPlanner"/>
+
+<!--        <param name="base_global_planner" value="global_planner/GlobalPlanner"/> -->
+
+<!--     <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS"/>  -->
+
+    <param name="base_local_planner" value="pid_local_planner/LocalPlanner"/>
+    
+    <rosparam file="$(find simulated_navigation_launch)/config/move_base/move_base.yaml" command="load" />
+
+    <rosparam file="$(find simulated_navigation_launch)/config/move_base/global_costmap_common_params_$(arg used_layer).yaml" command="load" ns="global_costmap" />
+
+    <rosparam file="$(find simulated_navigation_launch)/config/move_base/local_costmap_common_params.yaml" command="load" ns="local_costmap" />
+
+    <rosparam file="$(find simulated_navigation_launch)/config/move_base/local_costmap_params.yaml" command="load" />
+
+    <rosparam file="$(find simulated_navigation_launch)/config/move_base/global_costmap_params.yaml" command="load" />
+
+<!--     <rosparam file="$(find simulated_navigation_launch)/config/move_base/base_local_planner_dwa.yaml" command="load" /> -->
+
+    <rosparam file="$(find simulated_navigation_launch)/config/move_base/pid_local_planner.yaml" command="load" />
+
+    <rosparam file="$(find simulated_navigation_launch)/config/move_base/base_global_planner.yaml" command="load" />
+
+</node>
+
+</launch>

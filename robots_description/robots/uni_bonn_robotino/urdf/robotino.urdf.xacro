@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"
+  name="robotino">
+  
+  <xacro:include filename="$(find robots_description)/robots/uni_bonn_robotino/urdf/properties.urdf.xacro" />
+  <xacro:include filename="$(find robots_description)/urdf/robotino_body.urdf.xacro" />
+  <xacro:include filename="$(find robots_description)/urdf/hokuyo.urdf.xacro" />
+  <xacro:include filename="$(find robots_description)/urdf/kinect.urdf.xacro" />
+  
+  <xacro:body name="base"/>
+    
+  <xacro:hokuyo name="hokuyo" parent="base_link">
+    <origin xyz="${hokuyo_x} ${hokuyo_y} ${hokuyo_z}" rpy="${hokuyo_roll} ${hokuyo_pitch} ${hokuyo_yaw}"/>
+  </xacro:hokuyo>
+    
+  <xacro:kinect name="kinect" parent="base_link">
+    <origin xyz="${kinect_x} ${kinect_y} ${kinect_z}" rpy="${kinect_roll} ${kinect_pitch} ${kinect_yaw}"/>
+  </xacro:kinect>
+  
+</robot>

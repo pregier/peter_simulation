@@ -1,0 +1,324 @@
+# Bounding box of the cluttered area with 64 objects: 
+# X-Range 40 - 48;
+# Y-Range 32 - 36; 
+
+basmati_rice:
+  model: orange_box
+  model_type: urdf
+  position: [42.82, 34.28, 0.3]
+  orientation: [0, 0, 0]
+book_heilkrauter:
+  model: orange_box
+  model_type: urdf
+  position: [43.64, 33.56, 0.3]
+  orientation: [0, 0, 0]
+kitekat:
+  model: orange_box
+  model_type: urdf
+  position: [46.07, 33.84, 0.3]
+  orientation: [0, 0, 0]
+spaghetti:
+  model: orange_box
+  model_type: urdf
+  position: [46.15, 35.9, 0.3]
+  orientation: [0, 0, 0]
+candle_thin:
+  model: orange_box
+  model_type: urdf
+  position: [40.81, 32.5, 0.3]
+  orientation: [0, 0, 0]
+plastic_wrap:
+  model: orange_box
+  model_type: urdf
+  position: [45.27, 33.84, 0.3]
+  orientation: [0, 0, 0]
+medicine_prospan:
+  model: orange_box
+  model_type: urdf
+  position: [46.75, 35.91, 0.3]
+  orientation: [0, 0, 0]
+green_tea:
+  model: orange_box
+  model_type: urdf
+  position: [41.93, 35.31, 0.3]
+  orientation: [0, 0, 0]
+tomato_sauce:
+  model: orange_box
+  model_type: urdf
+  position: [43.54, 35.78, 0.3]
+  orientation: [0, 0, 0]
+picture_family:
+  model: orange_box
+  model_type: urdf
+  position: [47.47, 32.33, 0.3]
+  orientation: [0, 0, 0]
+milk:
+  model: orange_box
+  model_type: urdf
+  position: [46.84, 32.23, 0.3]
+  orientation: [0, 0, 0]
+tomato_sauce_A:
+  model: orange_box
+  model_type: urdf
+  position: [45.16, 33.47, 0.3]
+  orientation: [0, 0, 0]
+plastic_wrap_A:
+  model: orange_box
+  model_type: urdf
+  position: [40.06, 35.78, 0.3]
+  orientation: [0, 0, 0]
+plastic_wrap_B:
+  model: orange_box
+  model_type: urdf
+  position: [41.62, 34.9, 0.3]
+  orientation: [0, 0, 0]
+book_heilkrauter_A:
+  model: orange_box
+  model_type: urdf
+  position: [43.21, 34.82, 0.3]
+  orientation: [0, 0, 0]
+medicine_panodil:
+  model: orange_box
+  model_type: urdf
+  position: [47.33, 32.97, 0.3]
+  orientation: [0, 0, 0]
+plastic_wrap_C:
+  model: orange_box
+  model_type: urdf
+  position: [46.46, 33.69, 0.3]
+  orientation: [0, 0, 0]
+medicine_panodil_A:
+  model: orange_box
+  model_type: urdf
+  position: [45.86, 35.6, 0.3]
+  orientation: [0, 0, 0]
+candle_thin_A:
+  model: orange_box
+  model_type: urdf
+  position: [43.6, 34.43, 0.3]
+  orientation: [0, 0, 0]
+green_tea_A:
+  model: orange_box
+  model_type: urdf
+  position: [40.48, 35.91, 0.3]
+  orientation: [0, 0, 0]
+book_pferdewitze:
+  model: orange_box
+  model_type: urdf
+  position: [45.17, 34.49, 0.3]
+  orientation: [0, 0, 0]
+salt:
+  model: orange_box
+  model_type: urdf
+  position: [46.29, 34.6, 0.3]
+  orientation: [0, 0, 0]
+box_wood:
+  model: orange_box
+  model_type: urdf
+  position: [40.25, 35.07, 0.3]
+  orientation: [0, 0, 0]
+box_wood_A:
+  model: orange_box
+  model_type: urdf
+  position: [46.42, 35.57, 0.3]
+  orientation: [0, 0, 0]
+picture_family_A:
+  model: orange_box
+  model_type: urdf
+  position: [47.77, 33.51, 0.3]
+  orientation: [0, 0, 0]
+green_tea_B:
+  model: orange_box
+  model_type: urdf
+  position: [41.04, 35.98, 0.3]
+  orientation: [0, 0, 0]
+tomato_soup:
+  model: orange_box
+  model_type: urdf
+  position: [43.98, 32.4, 0.3]
+  orientation: [0, 0, 0]
+picture_family_B:
+  model: orange_box
+  model_type: urdf
+  position: [42.54, 35.32, 0.3]
+  orientation: [0, 0, 0]
+basmati_rice_A:
+  model: orange_box
+  model_type: urdf
+  position: [43.61, 32.43, 0.3]
+  orientation: [0, 0, 0]
+book_gardening:
+  model: orange_box
+  model_type: urdf
+  position: [43.43, 35.25, 0.3]
+  orientation: [0, 0, 0]
+candle_thin_B:
+  model: orange_box
+  model_type: urdf
+  position: [41.54, 34.01, 0.3]
+  orientation: [0, 0, 0]
+green_tea_C:
+  model: orange_box
+  model_type: urdf
+  position: [40.62, 33.28, 0.3]
+  orientation: [0, 0, 0]
+candle_thick_holder:
+  model: orange_box
+  model_type: urdf
+  position: [40.86, 32.06, 0.3]
+  orientation: [0, 0, 0]
+tomato_sauce_B:
+  model: orange_box
+  model_type: urdf
+  position: [40.43, 34.76, 0.3]
+  orientation: [0, 0, 0]
+candle_thick:
+  model: orange_box
+  model_type: urdf
+  position: [41.3, 35.44, 0.3]
+  orientation: [0, 0, 0]
+book_pferdewitze_A:
+  model: orange_box
+  model_type: urdf
+  position: [41.22, 33.63, 0.3]
+  orientation: [0, 0, 0]
+plastic_wrap_D:
+  model: orange_box
+  model_type: urdf
+  position: [40.86, 32.92, 0.3]
+  orientation: [0, 0, 0]
+spaghetti_A:
+  model: orange_box
+  model_type: urdf
+  position: [44.81, 32.08, 0.3]
+  orientation: [0, 0, 0]
+basmati_rice_B:
+  model: orange_box
+  model_type: urdf
+  position: [47.93, 34.6, 0.3]
+  orientation: [0, 0, 0]
+plastic_wrap_E:
+  model: orange_box
+  model_type: urdf
+  position: [40.04, 32.93, 0.3]
+  orientation: [0, 0, 0]
+book_pferdewitze_B:
+  model: orange_box
+  model_type: urdf
+  position: [46.07, 33.11, 0.3]
+  orientation: [0, 0, 0]
+book_romantiker:
+  model: orange_box
+  model_type: urdf
+  position: [42.58, 34.58, 0.3]
+  orientation: [0, 0, 0]
+picture_family_C:
+  model: orange_box
+  model_type: urdf
+  position: [43.97, 34.35, 0.3]
+  orientation: [0, 0, 0]
+candle_thick_holder_A:
+  model: orange_box
+  model_type: urdf
+  position: [47.42, 35.83, 0.3]
+  orientation: [0, 0, 0]
+spaghetti_B:
+  model: orange_box
+  model_type: urdf
+  position: [44, 35.43, 0.3]
+  orientation: [0, 0, 0]
+book_romantiker_A:
+  model: orange_box
+  model_type: urdf
+  position: [45.09, 35.33, 0.3]
+  orientation: [0, 0, 0]
+spaghetti_C:
+  model: orange_box
+  model_type: urdf
+  position: [43.16, 35.81, 0.3]
+  orientation: [0, 0, 0]
+medicine_prospan_A:
+  model: orange_box
+  model_type: urdf
+  position: [47.41, 35.4, 0.3]
+  orientation: [0, 0, 0]
+candle_thin_C:
+  model: orange_box
+  model_type: urdf
+  position: [44.13, 32.99, 0.3]
+  orientation: [0, 0, 0]
+plastic_wrap_F:
+  model: orange_box
+  model_type: urdf
+  position: [43.19, 32.22, 0.3]
+  orientation: [0, 0, 0]
+tomato_sauce_C:
+  model: orange_box
+  model_type: urdf
+  position: [44.55, 35.96, 0.3]
+  orientation: [0, 0, 0]
+orange_juice_hohesc:
+  model: orange_box
+  model_type: urdf
+  position: [46.81, 34.6, 0.3]
+  orientation: [0, 0, 0]
+plastic_wrap_G:
+  model: orange_box
+  model_type: urdf
+  position: [42.38, 35.77, 0.3]
+  orientation: [0, 0, 0]
+tomato_soup_A:
+  model: orange_box
+  model_type: urdf
+  position: [43.71, 33.15, 0.3]
+  orientation: [0, 0, 0]
+zwieback:
+  model: orange_box
+  model_type: urdf
+  position: [45.81, 32.8, 0.3]
+  orientation: [0, 0, 0]
+orange_juice_hohesc_A:
+  model: orange_box
+  model_type: urdf
+  position: [47.97, 35.68, 0.3]
+  orientation: [0, 0, 0]
+candle_thin_D:
+  model: orange_box
+  model_type: urdf
+  position: [47.63, 33.88, 0.3]
+  orientation: [0, 0, 0]
+basmati_rice_C:
+  model: orange_box
+  model_type: urdf
+  position: [45.73, 35.1, 0.3]
+  orientation: [0, 0, 0]
+salt_A:
+  model: orange_box
+  model_type: urdf
+  position: [42.89, 32.45, 0.3]
+  orientation: [0, 0, 0]
+candle_thick_holder_B:
+  model: orange_box
+  model_type: urdf
+  position: [42.21, 34.09, 0.3]
+  orientation: [0, 0, 0]
+kitekat_A:
+  model: orange_box
+  model_type: urdf
+  position: [40.78, 33.85, 0.3]
+  orientation: [0, 0, 0]
+green_tea_D:
+  model: orange_box
+  model_type: urdf
+  position: [47.2, 32.58, 0.3]
+  orientation: [0, 0, 0]
+medicine_panodil_B:
+  model: orange_box
+  model_type: urdf
+  position: [40.37, 32.7, 0.3]
+  orientation: [0, 0, 0]
+spaghetti_D:
+  model: orange_box
+  model_type: urdf
+  position: [43.29, 33.85, 0.3]
+  orientation: [0, 0, 0]

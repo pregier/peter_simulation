@@ -1,0 +1,6 @@
+image: iros16_sim_grey.png
+resolution: 0.049
+origin: [-0.12, -0.10, 0.0]
+occupied_thresh: 0.7
+free_thresh: 0.09
+negate: 0

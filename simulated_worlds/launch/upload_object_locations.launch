@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- send objects locations to parameter server -->
+	<rosparam command="delete" param="/objects"/>
+	<rosparam command="load" ns="objects" file="$(find clutter_helper)/config/results/corridor_2/object_location.yaml"/>
+</launch>
+
+<!--O32_X40Y32_X48Y36   corridor_1   -->

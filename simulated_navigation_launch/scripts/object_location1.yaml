@@ -1,0 +1,21 @@
+salt:
+  model: orange_box
+  model_type: urdf
+  position: [36, 36, 0.2]
+  orientation: [0, 0, 0]
+book_romantiker:
+  model: orange_box
+  model_type: urdf
+  position: [36, 32, 0.2]
+  orientation: [0, 0, 0]
+milk:
+  model: orange_box
+  model_type: urdf
+  position: [35, 34, 0.2]
+  orientation: [0, 0, 0]
+basmati_rice:
+  model: orange_box
+  model_type: urdf
+  position: [35, 33, 0.2]
+  orientation: [0, 0, 0]
+

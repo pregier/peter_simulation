@@ -1,0 +1,104 @@
+# Bounding box of the cluttered area with 20 objects: 
+# X-Range 38 - 43;
+# Y-Range 27 - 29; 
+
+zwieback:
+  model: zwieback
+  model_type: urdf
+  position: [42.57, 28.39, 0.3]
+  orientation: [-1.398187, 2.551691, 1.590437]
+tomato_soup:
+  model: tomato_soup
+  model_type: urdf
+  position: [42.85, 28.87, 0.3]
+  orientation: [-1.275845, 2.761419, -0.1398187]
+kitekat:
+  model: kitekat
+  model_type: urdf
+  position: [40.02, 27.73, 0.3]
+  orientation: [-0.314592, -0.734048, 2.761419]
+orange_juice_hohesc:
+  model: orange_juice_hohesc
+  model_type: urdf
+  position: [41.58, 27.18, 0.3]
+  orientation: [1.782688, 2.866283, 2.866283]
+spaghetti:
+  model: spaghetti
+  model_type: urdf
+  position: [42.92, 28.22, 0.3]
+  orientation: [-1.083595, 2.341963, 2.674032]
+zwieback_A:
+  model: zwieback
+  model_type: urdf
+  position: [38.31, 27.75, 0.3]
+  orientation: [2.132235, -1.04864, 2.761419]
+basmati_rice:
+  model: basmati_rice
+  model_type: urdf
+  position: [40.66, 28.91, 0.3]
+  orientation: [2.219621, 2.254576, -1.136027]
+book_gardening:
+  model: book_gardening
+  model_type: urdf
+  position: [41.72, 28.88, 0.3]
+  orientation: [-1.538005, -1.101072, -0.471888]
+book_gardening_A:
+  model: book_gardening
+  model_type: urdf
+  position: [38.53, 27.34, 0.3]
+  orientation: [-0.891344, -0.4544107, 1.870075]
+box_wood:
+  model: box_wood
+  model_type: urdf
+  position: [38.95, 27.92, 0.3]
+  orientation: [-0.629184, -1.415664, 1.922507]
+medicine_panodil:
+  model: medicine_panodil
+  model_type: urdf
+  position: [39.67, 27.48, 0.3]
+  orientation: [-0.3495467, -1.101072, 2.778896]
+tomato_soup_A:
+  model: tomato_soup
+  model_type: urdf
+  position: [39.3, 28.18, 0.3]
+  orientation: [1.939984, 2.376917, 2.376917]
+green_tea:
+  model: green_tea
+  model_type: urdf
+  position: [40.59, 27.56, 0.3]
+  orientation: [-0.3845013, 2.691509, 3.110965]
+book_gardening_B:
+  model: book_gardening
+  model_type: urdf
+  position: [39.29, 28.91, 0.3]
+  orientation: [-1.433141, 2.761419, 2.813851]
+plastic_wrap:
+  model: plastic_wrap
+  model_type: urdf
+  position: [39.18, 27.14, 0.3]
+  orientation: [-1.136027, 2.132235, -0.2796373]
+candle_thick_holder:
+  model: candle_thick_holder
+  model_type: urdf
+  position: [40.33, 28.25, 0.3]
+  orientation: [2.09728, -1.101072, 2.778896]
+picture_family:
+  model: picture_family
+  model_type: urdf
+  position: [42.83, 27.53, 0.3]
+  orientation: [3.14592, -0.157296, 1.870075]
+box_wood_A:
+  model: box_wood
+  model_type: urdf
+  position: [42.47, 27.14, 0.3]
+  orientation: [-1.118549, -0, 2.971147]
+box_wood_B:
+  model: box_wood
+  model_type: urdf
+  position: [39.83, 27.04, 0.3]
+  orientation: [1.590437, -0.891344, 1.730256]
+picture_family_A:
+  model: picture_family
+  model_type: urdf
+  position: [41.14, 27.15, 0.3]
+  orientation: [-0.314592, -1.538005, 3.14592]

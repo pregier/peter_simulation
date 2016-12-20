@@ -1,0 +1,34 @@
+root_path: /home/sosswald/catkin/peter_ws2/src/simulation_dev/simulated_navigation_launch/scripts/object_longbox             #must exist
+folder_name: cluster_count                      #must exist as {root_path}/{folder_name}_#
+file_name: object_location
+model_name: orange_box_long_static
+map_count: 8
+
+cluster_count_min: 3
+cluster_count_max: 12
+cluster_radius_min: 1.5
+cluster_radius_max: 2.5
+cluster_object_density_min: 0.35
+cluster_object_density_max: 0.35
+cluster_xmin: 4.5
+cluster_xmax: 17.0
+cluster_ymin: 2.0
+cluster_ymax: 6.0
+
+spawn_xmin: 3.5
+spawn_xmax: 18.5
+spawn_ymin: 0.2
+spawn_ymax: 7.8
+spawn_zmin: 0.125
+spawn_zmax: 0.125
+spawn_yawmin: 0.0
+spawn_yawmax: 180.0
+
+object_corner_1_x: 0.5
+object_corner_1_y: 0.05
+object_corner_2_x: 0.5
+object_corner_2_y: -0.05
+object_corner_3_x: -0.5
+object_corner_3_y: -0.05
+object_corner_4_x: -0.5
+object_corner_4_y: 0.05

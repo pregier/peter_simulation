@@ -1,0 +1,91 @@
+tomato_soup:
+  model: tomato_soup
+  model_type: urdf
+  position: [42.00, 33.00, 0.3]
+  orientation: [2.988624, -0.209728, -0.314592]
+milk:
+  model: milk
+  model_type: urdf
+  position: [42.20, 33.00, 0.3]
+  orientation: [2.778896, 1.905029, 2.569168]
+spaghetti:
+  model: spaghetti
+  model_type: urdf
+  position: [42.40, 33.00, 0.3]
+  orientation: [1.939984, 1.817643, -1.363232]
+basmati_rice:
+  model: basmati_rice
+  model_type: urdf
+  position: [42.60, 33.00, 0.3]
+  orientation: [-0.9088213, 2.202144, 1.974939]
+tomato_soup_A:
+  model: tomato_soup
+  model_type: urdf
+  position: [42.80, 33.00, 0.3]
+  orientation: [-1.04864, 3.14592, -1.188459]
+picture_family:
+  model: picture_family
+  model_type: urdf
+  position: [43.00, 33.00, 0.3]
+  orientation: [-0.7515253, -1.066117, 2.708987]
+candle_thin:
+  model: candle_thin
+  model_type: urdf
+  position: [43.20, 33.00, 0.3]
+  orientation: [2.411872, -0.838912, -0.3495467]
+milk_A:
+  model: milk
+  model_type: urdf
+  position: [43.40, 33.00, 0.3]
+  orientation: [-1.258368, 2.516736, -1.345755]
+kitekat:
+  model: kitekat
+  model_type: urdf
+  position: [43.60, 33.00, 0.3]
+  orientation: [2.132235, -0.891344, -0.838912]
+medicine_panodil:
+  model: medicine_panodil
+  model_type: urdf
+  position: [43.80, 33.00, 0.3]
+  orientation: [2.307008, -1.153504, -0.3495467]
+picture_family_A:
+  model: picture_family
+  model_type: urdf
+  position: [44.00, 33.00, 0.3]
+  orientation: [-1.04864, -0.9787307, 2.027371]
+plastic_wrap:
+  model: plastic_wrap
+  model_type: urdf
+  position: [44.20, 33.00, 0.3]
+  orientation: [-1.380709, 2.044848, -0.7690027]
+tomato_soup_B:
+  model: tomato_soup
+  model_type: urdf
+  position: [44.40, 33.00, 0.3]
+  orientation: [2.237099, 2.289531, 2.586645]
+green_tea:
+  model: green_tea
+  model_type: urdf
+  position: [44.60, 33.00, 0.3]
+  orientation: [1.887552, -0.03495467, 3.076011]
+milk_B:
+  model: milk
+  model_type: urdf
+  position: [44.80, 33.00, 0.3]
+  orientation: [-0.7165707, 2.534213, -1.363232]
+plastic_wrap_A:
+  model: plastic_wrap
+  model_type: urdf
+  position: [45.00, 33.00, 0.3]
+  orientation: [1.905029, -0.1223413, 2.429349]
+book_heilkrauter:
+  model: book_heilkrauter
+  model_type: urdf
+  position: [45.20, 33.00, 0.3]
+  orientation: [-1.450619, -0.838912, -1.555483]
+box_wood:
+  model: box_wood
+  model_type: urdf
+  position: [45.40, 33.00, 0.3]
+  orientation: [-0.943776, 2.464304, 1.974939]
+

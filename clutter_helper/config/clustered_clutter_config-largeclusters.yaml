@@ -1,0 +1,41 @@
+root_path: /home/sosswald/catkin/peter_ws2/src/simulation_dev/simulated_navigation_launch/scripts/object_largeclusters_0.6           #must exist
+folder_name: cluster_count                     #must exist as {root_path}/{folder_name}_#
+file_name: object_location
+model_0_name: orange_box_30cm_static
+model_1_name: orange_box_60cm_static
+model_2_name: orange_box_120cm_static
+model_3_name: ""
+model_4_name: ""
+map_count: 20
+
+cluster_count_min: 3
+cluster_count_max: 5
+cluster_radius_min: 4
+cluster_radius_max: 4
+cluster_object_density_min: 0.6
+cluster_object_density_max: 0.6
+cluster_xmin: 4.0
+cluster_xmax: 25.0
+cluster_ymin: 1
+cluster_ymax: 11
+cluster_min_distance: 8.0
+
+spawn_xmin: 3.0
+spawn_xmax: 26.0
+spawn_ymin: 0.0
+spawn_ymax: 12.0
+spawn_zmin: 0.0
+spawn_zmax: 0.0
+spawn_yawmin: 0.0
+spawn_yawmax: 180.0
+
+object_0_corner_x: 0.15
+object_0_corner_y: 0.05
+object_1_corner_x: 0.3
+object_1_corner_y: 0.05
+object_2_corner_x: 0.6
+object_2_corner_y: 0.05
+object_3_corner_x: 0.0
+object_3_corner_y: 0.0
+object_4_corner_x: 0.0
+object_4_corner_y: 0.0

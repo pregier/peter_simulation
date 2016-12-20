@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="minx" default="40" />
+	<arg name="miny" default="32" />
+	<arg name="maxx" default="48" />
+	<arg name="maxy" default="36" />
+	<arg name="numOfObjects" default="64" />
+	<arg name="min_distance" default="0.3" />
+	<arg name="file_location"
+		default="/home/pregier/Workspaces/clutter_navigation_ws/object_location.yaml" />
+
+
+	<!--clutter plane minx = 40 miny = 32 maxx = 48 maxy = 36 - -->
+	<!--clutter plane one wall minx = 40 miny = 29.5 maxx = 48 maxy = 33.5 -->
+	<!--guess corridor_2 minx = 38 miny = 27 maxx = 43 maxy = 29 -->
+
+	<node pkg="clutter_helper" type="set_clutter" name="set_clutter"
+		respawn="false" output="screen" required="true">
+		<param name="minx" type="double" value="$(arg minx)" />
+		<param name="miny" type="double" value="$(arg miny)" />
+		<param name="maxx" type="double" value="$(arg maxx)" />
+		<param name="maxy" type="double" value="$(arg maxy)" />
+		<param name="numOfObjects" type="int" value="$(arg numOfObjects)" />
+		<param name="min_distance" type="double" value="$(arg min_distance)" />
+		<param name="file_location" type="string" value="$(arg file_location)" />
+	</node>
+
+</launch>
